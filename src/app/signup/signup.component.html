@@ -1,0 +1,15 @@
+<div class="form-signin">
+    <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+      <h1 class="h3 mb-3 font-weight-normal">Create your account</h1>
+      <p *ngIf="loginError">{{loginError}}</p>
+      <mat-form-field>
+        <input matInput placeholder="Enter your email" formControlName="email" required>
+        <mat-error *ngIf="!signupForm.controls.email.valid">Please enter valid email id</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+          <input matInput placeholder="Enter your password" type="password" formControlName="password" required>
+          <mat-error *ngIf="!signupForm.controls.password.valid">Please enter password</mat-error>
+      </mat-form-field><br/>
+        <button type="submit" mat-raised-button color="warn">Signup</button>
+    </form>
+  </div>
