@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "login-in-angular"
+  "defaultProject": "login-in-angular",
+  "cli": {
+    "analytics": false
+  }
 }
