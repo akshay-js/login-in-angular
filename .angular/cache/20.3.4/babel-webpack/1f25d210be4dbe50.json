@@ -1,0 +1,1 @@
+{"ast":null,"code":"/** Coerces a value to a CSS pixel value. */\nfunction coerceCssPixelValue(value) {\n  if (value == null) {\n    return '';\n  }\n  return typeof value === 'string' ? value : `${value}px`;\n}\nexport { coerceCssPixelValue };\n//# sourceMappingURL=css-pixel-value.mjs.map","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"/**\n * @license Angular v20.3.3\n * (c) 2010-2025 Google LLC. https://angular.io/\n * License: MIT\n */\n\nfunction setAlternateWeakRefImpl(impl) {\n  // TODO: remove this function\n}\nexport { setAlternateWeakRefImpl };\n//# sourceMappingURL=weak_ref.mjs.map","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
