@@ -1,6 +1,8 @@
 # Angular Login/Signup & Authentication Demo
 
-Check the live demo: [Netlify Preview](https://admiring-ardinghelli-c7c662.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/33458e69-a4a0-4725-8507-3b578ac92b71/deploy-status)](https://app.netlify.com/projects/angular-login-demo/deploys)
+
+Check the live demo: [angular-login-demo.netlify.app](https://angular-login-demo.netlify.app/)
 
 This repo is a minimal Angular app demonstrating login, signup, route protection, and HTTP interceptor usage against the public `reqres.in` API.
 
